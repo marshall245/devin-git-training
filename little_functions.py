@@ -9,4 +9,6 @@ def traingles(n):
     return n * (n + 1) / 2
     
 def handshake(n):
+    """Returns the handshake number n * (n - 1) / 2"""
     return n * (n - 1) / 2
+
