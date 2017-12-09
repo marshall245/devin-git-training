@@ -17,3 +17,13 @@ def handshake(n):
 def circle_perimeter(radius):
     """Returns the perimeter of a circle """
     return 3.14 * radius ** 2
+
+
+def square_perimeter(side):
+    """Returns the perimeter of a square"""
+    return 4 * side
+
+
+def rectangle_perimeter(len, width):
+    """Returns the perimeter of a rectangle"""
+    return 2 * len + 2 * width 
